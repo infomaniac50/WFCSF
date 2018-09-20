@@ -1,0 +1,134 @@
+Subject: Wordfence activity for September 17, 2018 on shane-hackett.com
+From: WordPress <wordpress@shane-hackett.com>
+Date: 9/17/18, 12:30 PM
+To: derek@marketleverage.com
+Delivered-To: derek@marketleverage.com
+Received: by 2002:aed:3862:0:0:0:0:0 with SMTP id j89-v6csp4455825qte; Mon, 17 Sep 2018 10:30:20 -0700 (PDT)
+X-Google-Smtp-Source: ANB0VdbUBZ5GFqDn21mwtSao3mD5GjMfR69+5QxxC+NZJZdYVQHDvpH8Oa7i8s/et863bU7zbX++
+X-Received: by 2002:a6b:b8d4:: with SMTP id i203-v6mr21469651iof.287.1537205420578; Mon, 17 Sep 2018 10:30:20 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1537205420; cv=none; d=google.com; s=arc-20160816; b=q6hAhkCXnD8/ePVBVw+zwex8qnJfWSycBi93z/nJu+sOUbJsQQ6qWoLUojXbgnY7N0 oRv7BL2wUpfj0Sw8kvMjEWlkI5Q3WCh0ld0lHHOJyZlobpmy9luAXn1n9MtPpOtQaaOz 2PcnU4cEgWayoyQ9PU6nS6ZWzhORBYzU5bVqdSAkaC9JiJnjul7F5oQDep03zmzxr1OP 7EhsmHauf8vEGPT6KAJfM0U+irao4xT1r0ilKRc/sf7GpuSrDa7zlE62MUhhLmfLTs3N i89hFiuKNAgSqi0gbytaNu5RKzMCb/st/RW3Ipi85fRCeWv2GRnt0KPYVGWHe2unSqP8 fxTw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816; h=sender:mime-version:message-id:from:date:subject:to:dkim-signature; bh=UpsUskEV9qneYnycEkd/9r4nGvixAC/pQjefM44bjZw=; b=ifdeh4Ws1BPvJDmkZWUHYa2OJgxy6jBH6tP2TJ+YXZSJPYulaw+eQzD816DKSrD/zS HNXJ1knR/4aMfl/Tg6wKl878mNbvcWYWkeTmONY6QhdxUHNOE4zG5IiJGt6cFT+C00ZK JvJZTVTHpXzbVF3+/8rufa5oVEWIFim3J8OmXRAyHn3EAjxCNRsJmpUACrzzhu2saHSz NVw9d353nuAkWig9JdntMXT4gy7l5O3TUQgWWXlb+zwuHlvItaLYVgHvSFHBr5ytcS1x vULOaIQ5PgvAThBsj/DY+XiCuN7plNXoOPsFR+R5YqDtcQ1RHTsalQOi2Su36FHzIZwM vSPg==
+ARC-Authentication-Results: i=1; mx.google.com; dkim=temperror (no key for signature) header.i=@shane-hackett.com header.s=default header.b=MCtDCcb4; spf=pass (google.com: best guess record for domain of demo1592@host.webservicesdivision.com designates 72.52.250.17 as permitted sender) smtp.mailfrom=demo1592@host.webservicesdivision.com
+Return-Path: <demo1592@host.webservicesdivision.com>
+Received: from host.webservicesdivision.com (host.webservicesdivision.com. [72.52.250.17]) by mx.google.com with ESMTPS id c19-v6si10459106iob.97.2018.09.17.10.30.19 for <derek@marketleverage.com> (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128); Mon, 17 Sep 2018 10:30:20 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of demo1592@host.webservicesdivision.com designates 72.52.250.17 as permitted sender) client-ip=72.52.250.17;
+Authentication-Results: mx.google.com; dkim=temperror (no key for signature) header.i=@shane-hackett.com header.s=default header.b=MCtDCcb4; spf=pass (google.com: best guess record for domain of demo1592@host.webservicesdivision.com designates 72.52.250.17 as permitted sender) smtp.mailfrom=demo1592@host.webservicesdivision.com
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=shane-hackett.com; s=default; h=Sender:Content-Type:MIME-Version:Message-ID :From:Date:Subject:To:Reply-To:Cc:Content-Transfer-Encoding:Content-ID: Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc :Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe: List-Subscribe:List-Post:List-Owner:List-Archive; bh=UpsUskEV9qneYnycEkd/9r4nGvixAC/pQjefM44bjZw=; b=MCtDCcb4I44Hy6qZbjjGHODE9a dgaLk5YbyAXzj8nFBYLCx3qlbeLAgyoYILq4CNOB2owmQjfbdMu7ud7MPp3sLGvGAJDcwnvss3fQl fqkWWmw5RKXYjhJkx76Lj34N2pgDPUpZ0xfn7/NlJc0AEjuD9eZ5lzgTNJjKSVGS1Qwk=;
+Received: from demo1592 by host.webservicesdivision.com with local (Exim 4.91) (envelope-from <demo1592@host.webservicesdivision.com>) id 1g1xLm-00DEvs-Ov for derek@marketleverage.com; Mon, 17 Sep 2018 12:30:19 -0500
+X-PHP-Script: shane-hackett.com/wp-cron.php for 2607:fad0:2160:2:1::28
+X-PHP-Originating-Script: 532:class-phpmailer.php
+Message-ID: <780e6ff3c89a9b422caac0fb7b2b3ae0@shane-hackett.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Sender: <demo1592@host.webservicesdivision.com>
+X-OutGoing-Spam-Status: No, score=1.8
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - host.webservicesdivision.com
+X-AntiAbuse: Original Domain - marketleverage.com
+X-AntiAbuse: Originator/Caller UID/GID - [532 501] / [47 12]
+X-AntiAbuse: Sender Address Domain - host.webservicesdivision.com
+X-Get-Message-Sender-Via: host.webservicesdivision.com: authenticated_id: demo1592/from_h
+X-Authenticated-Sender: host.webservicesdivision.com: wordpress@shane-hackett.com
+X-Source-Dir: shane-hackett.com:/public_html
+
+Wordfence activity from September 10, 2018 to September 17, 2018
+Wordfence activity from
+September 10, 2018 to September 17, 2018	
+
+This email was sent from your website http://shane-hackett.com and is a summary of security related activity that Wordfence monitors for the period September 10, 2018 to September 17, 2018. NOTE: You are using the free version of Wordfence and are missing out on features like cellphone sign-in, country blocking and detecting if your site IP is sending spam. Click here to upgrade to Wordfence Premium now.
+Top 10 IPs Blocked
+IP 	Country 	Block Count
+2002:c1a9:fc8e::c1a9:fc8e 	  PL 	1444
+31.3.152.100 	  SE 	247
+114.115.129.39 	  CN 	3
+46.105.101.95 	  FR 	2
+
+Update Blocked IPs
+Top 10 Countries Blocked
+Country 	Total IPs Blocked 	Block Count
+  PL 	1 	1444
+  SE 	2 	247
+  CN 	1 	3
+  FR 	1 	2
+
+Update Blocked Countries
+Top 10 Failed Logins
+Username 	Login Attempts 	Existing User
+Shane 	19 	Yes
+
+Update Login Security Options
+Recently Blocked Attacks
+Time 	IP / Action
+September 15, 2018
+12:33am 	
+114.115.129.39 (China)
+
+Blocked for XSS: Cross Site Scripting in POST body: data=data:image/php;base64,PD9waHAgcGhwaW5mbygpOz8+
+
+September 15, 2018
+12:33am 	
+114.115.129.39 (China)
+
+Blocked for Directory Traversal in query string: install_demo_name=../data/admin/config_update.php
+
+September 15, 2018
+12:33am 	
+114.115.129.39 (China)
+
+Blocked for Malicious File Upload (Patterns)
+
+View Recent Traffic
+Recently Modified Files
+Modified 	File
+September 13, 2018 3:22am 	
+
+wp-content/plugins/wordfence/index.php
+
+September 13, 2018 3:22am 	
+
+wp-content/plugins/wordfence/images/flags/tv.png
+
+September 13, 2018 3:22am 	
+
+wp-content/plugins/wordfence/images/flags/tm.png
+
+September 13, 2018 3:22am 	
+
+wp-content/plugins/wordfence/images/flags/dk.png
+
+September 13, 2018 3:22am 	
+
+wp-content/plugins/wordfence/images/flags/ga.png
+
+September 13, 2018 3:22am 	
+
+wp-content/plugins/wordfence/images/flags/mv.png
+
+September 13, 2018 3:22am 	
+
+wp-content/plugins/wordfence/images/flags/np.png
+
+September 13, 2018 3:22am 	
+
+wp-content/plugins/wordfence/images/flags/il.png
+
+September 13, 2018 3:22am 	
+
+wp-content/plugins/wordfence/images/flags/gm.png
+
+September 13, 2018 3:22am 	
+
+wp-content/plugins/wordfence/images/flags/vg.png
+
+This list may include WordPress core/plugin/theme updates, error logs, cache files, and other normal changes.
+Updates Needed
+Plugins
+
+    A new version of the plugin "Simple History (v2.28.1)" is available.
+
+Update Now
+
+If you would like to sign-in to http://shane-hackett.com please click here now. You can change the frequency of this email or turn it on and off by visiting your Wordfence options page.
+
+No longer an administrator for this site? Click here to stop receiving security alerts.

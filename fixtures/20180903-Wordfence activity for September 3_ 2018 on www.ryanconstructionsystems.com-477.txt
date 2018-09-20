@@ -1,0 +1,145 @@
+Subject: Wordfence activity for September 3, 2018 on www.ryanconstructionsystems.com
+From: WordPress <admin@ryanconstructionsystems.com>
+Date: 9/3/18, 11:07 AM
+To: derek@marketleverage.com
+Delivered-To: derek@marketleverage.com
+Received: by 2002:aed:3862:0:0:0:0:0 with SMTP id j89-v6csp3006917qte; Mon, 3 Sep 2018 09:07:34 -0700 (PDT)
+X-Google-Smtp-Source: ANB0VdbbLT8kKY3rC49eNGaz1wlmRmDRIohVW1GeLg5dnPAai9/nKzeYez0MTeGKpCIRZ4RBsOhl
+X-Received: by 2002:a02:c4c6:: with SMTP id h6-v6mr20445048jaj.26.1535990854469; Mon, 03 Sep 2018 09:07:34 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1535990854; cv=none; d=google.com; s=arc-20160816; b=caB+yIgg196njS/rXwGm485Z4KoMZz3fDw+6AYZJSFx7OS2Hflj8S8i+7K20MfGh++ lYRX0PcCxL9/kOZBGQmcILr8HgLJmpsQkKB2qCgEeUP6//2LbCY6RbJlIda6lQwWVNLx 0ijBzT+RCTOA0Zfgvwk/WtA1RCSvaTmbwAtyJvyeBv5U0FkPxqA+koHXHp1WWci4lQgJ rWoiUStjIoOXT7L/mAQ7pkVx2sKOVfhS+bRqyNGaiist35rl7Nc3M6Lcpifqf6WpMe3E 1kU31nJffgV2kSVC8uT0w9GK4WO7h7s0SharFjnO2irSW/u93tUtYCxwlcwlGZEbLBi9 ww+A==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816; h=mime-version:message-id:subject:from:to:date:dkim-signature :arc-authentication-results; bh=u3ueH1rInB5qr7DMp1Ig/LUraP+JTglOtRyRWpxlYoA=; b=Psm1VSB39zB1wM2z8B8K+HVQr1G6N1aVEl1HmufjOr0hMEJ3H9PNO3IUxkhRUCdeJQ AGoU40nfRrOg64JQYEaA1kXZpJvsI6qWTED26Q7qdvBzyyVne1oIikn65XbsJffOU9ZB WQbVCDkp/CNzHHryM8tZHQZeEZqCps5kTPCkZrIGEYyrDWv6+0RoMc0frjIQMhqhNudZ FMWRtCq0RMANsafjU1nY+yL5k8HuT7jH4GEAdOEhnvzjTTmbl3rpaJIFPimPWlwWYcyf G5zkyZ0pkaFbqlQH7LfUg5stDi5O3tuJR0l3vfLuCrVCnt1I3G0mwuZcCl+N2uAzoBRZ V75w==
+ARC-Authentication-Results: i=1; mx.google.com; dkim=temperror (no key for signature) header.i=@ryanconstructionsystems.com header.s=default header.b="Zkj+Ja/L"; spf=neutral (google.com: 72.52.250.17 is neither permitted nor denied by best guess record for domain of admin@ryanconstructionsystems.com) smtp.mailfrom=admin@ryanconstructionsystems.com
+Return-Path: <admin@ryanconstructionsystems.com>
+Received: from host.webservicesdivision.com (host.webservicesdivision.com. [72.52.250.17]) by mx.google.com with ESMTPS id c4-v6si11222564jag.62.2018.09.03.09.07.34 for <derek@marketleverage.com> (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128); Mon, 03 Sep 2018 09:07:34 -0700 (PDT)
+Received-SPF: neutral (google.com: 72.52.250.17 is neither permitted nor denied by best guess record for domain of admin@ryanconstructionsystems.com) client-ip=72.52.250.17;
+Authentication-Results: mx.google.com; dkim=temperror (no key for signature) header.i=@ryanconstructionsystems.com header.s=default header.b="Zkj+Ja/L"; spf=neutral (google.com: 72.52.250.17 is neither permitted nor denied by best guess record for domain of admin@ryanconstructionsystems.com) smtp.mailfrom=admin@ryanconstructionsystems.com
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=ryanconstructionsystems.com; s=default; h=Content-Type:MIME-Version: Message-ID:Subject:From:To:Date:Sender:Reply-To:Cc:Content-Transfer-Encoding: Content-ID:Content-Description:Resent-Date:Resent-From:Resent-Sender: Resent-To:Resent-Cc:Resent-Message-ID:In-Reply-To:References:List-Id: List-Help:List-Unsubscribe:List-Subscribe:List-Post:List-Owner:List-Archive; bh=u3ueH1rInB5qr7DMp1Ig/LUraP+JTglOtRyRWpxlYoA=; b=Zkj+Ja/L37FfOzc+qSGD+MJ4K Xt5xX/mm1YIWJl0RzdWw81gP/FmUd5txjFbItsPhZnkX1QCYSx0gqHFF9eWn5r7AFX4aeaceMiElx PIO2zSmSGvrY3Wg0/9nTA+xHHyFdi120qH23xIlwf9DlNvi+k7hLakut6I3oYI772UNvtU1pM+XdW pP0BtLF/D9wKnO7PiiDMm7AubDg11ccMxLWzUxr7nls2HXh1MEdfgwNTnAkYIdoE+1S37ilS/Udxq N5Uj0HkotFa6ms5bob7PiERAqgFhqbsqFzupNv60MUeOy9XDlqKACeQQgjciXxjULdKy/fkr6Ihwj Y8d9xshrw==;
+Received: from [::1] (port=34022 helo=www.ryanconstructionsystems.com) by host.webservicesdivision.com with esmtpa (Exim 4.91) (envelope-from <admin@ryanconstructionsystems.com>) id 1fwrO0-000QZi-6l for derek@marketleverage.com; Mon, 03 Sep 2018 11:07:33 -0500
+Message-ID: <64efd989e751b5d3eb10075b24addb4a@www.ryanconstructionsystems.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+X-OutGoing-Spam-Status: No, score=0.5
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - host.webservicesdivision.com
+X-AntiAbuse: Original Domain - marketleverage.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - ryanconstructionsystems.com
+X-Get-Message-Sender-Via: host.webservicesdivision.com: authenticated_id: admin@ryanconstructionsystems.com
+X-Authenticated-Sender: host.webservicesdivision.com: admin@ryanconstructionsystems.com
+
+Wordfence activity from August 27, 2018 to September 3, 2018
+Wordfence activity from
+August 27, 2018 to September 3, 2018	
+
+This email was sent from your website http://www.ryanconstructionsystems.com and is a summary of security related activity that Wordfence monitors for the period August 27, 2018 to September 3, 2018. NOTE: You are using the free version of Wordfence and are missing out on features like cellphone sign-in, country blocking and detecting if your site IP is sending spam. Click here to upgrade to Wordfence Premium now.
+Top 10 IPs Blocked
+IP 	Country 	Block Count
+205.185.120.120 	  US 	10
+27.24.21.214 	  CN 	3
+
+Update Blocked IPs
+Top 10 Countries Blocked
+Country 	Total IPs Blocked 	Block Count
+  US 	1 	10
+  CN 	1 	3
+
+Update Blocked Countries
+Top 10 Failed Logins
+Username 	Login Attempts 	Existing User
+No failed logins yet.
+
+Update Login Security Options
+Recently Blocked Attacks
+Time 	IP / Action
+September 1, 2018
+2:50pm 	
+205.185.120.120 (United States)
+
+Blocked for Malicious File Upload (Patterns)
+
+September 1, 2018
+2:50pm 	
+205.185.120.120 (United States)
+
+Blocked for Directory Traversal - wp-config.php in query string: pic=../../../../../wp-config.php
+
+September 1, 2018
+2:50pm 	
+205.185.120.120 (United States)
+
+Blocked for Directory Traversal - wp-config.php in query string: path=../../../../../wp-config.php
+
+September 1, 2018
+2:50pm 	
+205.185.120.120 (United States)
+
+Blocked for Malicious File Upload (PHP)
+
+September 1, 2018
+2:49pm 	
+205.185.120.120 (United States)
+
+Blocked for WordPress 4.7.0-4.7.1 - Authentication Bypass
+
+September 1, 2018
+2:49pm 	
+205.185.120.120 (United States)
+
+Blocked for UserPro - User Profiles with Social Login <= 4.9.17 - Authentication Bypass in query string: up_auto_log=true
+
+September 1, 2018
+2:48pm 	
+205.185.120.120 (United States)
+
+Blocked for Malicious File Upload (Patterns)
+
+September 1, 2018
+2:48pm 	
+205.185.120.120 (United States)
+
+Blocked for Malicious File Upload (PHP)
+
+September 1, 2018
+2:48pm 	
+205.185.120.120 (United States)
+
+Blocked for Malicious File Upload (Patterns)
+
+September 1, 2018
+2:47pm 	
+205.185.120.120 (United States)
+
+Blocked for MailPoet <= 2.6.7 - Arbitrary File Upload
+
+View Recent Traffic
+Recently Modified Files
+Modified 	File
+August 30, 2018 7:40pm 	
+
+wp-content/uploads/elite-150x150.jpg
+
+August 30, 2018 7:39pm 	
+
+wp-content/uploads/elite.jpg
+
+This list may include WordPress core/plugin/theme updates, error logs, cache files, and other normal changes.
+Updates Needed
+Plugins
+
+    A new version of the plugin "Easy WP SMTP (v1.3.7)" is available.
+    A new version of the plugin "EWWW Image Optimizer (v4.3.2)" is available.
+    A new version of the plugin "Health Check (v1.2.1)" is available.
+    A new version of the plugin "Meow Lightbox (v1.2.2)" is available.
+    A new version of the plugin "Query Monitor (v3.1.0)" is available.
+    A new version of the plugin "Really Simple SSL (v3.0.5)" is available.
+    A new version of the plugin "TinyMCE Advanced (v4.8.0)" is available.
+    A new version of the plugin "UpdraftPlus - Backup/Restore (v1.14.13)" is available.
+    A new version of the plugin "WP Asset CleanUp (Page Speed Optimizer) (v1.2.6.9)" is available.
+    A new version of the plugin "Yoast SEO (v8.1.1)" is available.
+
+Update Now
+
+If you would like to sign-in to http://www.ryanconstructionsystems.com please click here now. You can change the frequency of this email or turn it on and off by visiting your Wordfence options page.
+
+No longer an administrator for this site? Click here to stop receiving security alerts.

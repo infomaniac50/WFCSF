@@ -1,0 +1,115 @@
+Subject: Wordfence activity for September 17, 2018 on jbradleyhilton.com
+From: WordPress <wordpress@jbradleyhilton.com>
+Date: 9/17/18, 4:45 PM
+To: derek@marketleverage.com
+Delivered-To: derek@marketleverage.com
+Received: by 2002:aed:3862:0:0:0:0:0 with SMTP id j89-v6csp4688343qte; Mon, 17 Sep 2018 14:45:35 -0700 (PDT)
+X-Google-Smtp-Source: ANB0VdYniscSvLNt3GbHEUrWi9yvOE21uX+LN+Sez++Od3+ducQO4igfTrjigt/4uPgBIbFQ8gDL
+X-Received: by 2002:a6b:d40c:: with SMTP id l12-v6mr22506931iog.10.1537220735282; Mon, 17 Sep 2018 14:45:35 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1537220735; cv=none; d=google.com; s=arc-20160816; b=bhqhXtTFdbaYVdzVbmp/teAN5Q3IWVDD9zFSUx16KlhHPKpk5jZkCeaMfv+OQxqBUR IO7H2FJ0nZonDg81T78GR/jSI2mWST255bTs6GwYB70AiwU4NWDLYld9sT1RcywrJKWu UDbTGwy5JbIVZKP19sDBNdXxvy2qESBuVjqbWGNJO+O4CznJlN10farXlI7x7U7aYT6n ZvYegPZqFWIakU/faqyRpr4JlcYQOB3jvuUlU0u8ncpjonV1Z1JZlmuQ3xf03xrn6sjP hr6APnWbYyDwp/j5w7KMxDL8SUBushPFlOy77BRc2TgLRn8rctFCIvHoJXQS/JY9RL75 P5Hg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816; h=sender:mime-version:message-id:from:date:subject:to:dkim-signature; bh=PNGwpCHLIz6gWKdZso+hgtS09Ahn0B3PWQMp6Jl783U=; b=Xbv+gkFBzeUc98CCX29Kmfpae/1rk8OCFelgVAw6VpVjjrWJurk+n77tW9tsMIB/ru n0k1cvxVNgyYURUnBlF22umrOD+SuEBQDno48UJAEjydqLDZ+OvAl0j+YHH4OVSCmMSc 3tZbhHyUK2SPX74dj2HhWPI7B7bYqNDxIGJuulIz/I7VPFw7NM/IJIHKdzsZ68wdIkCc koZGvE+4xwFaYXrEoZ55xklsaBIMSjfF5ctSTtIWyBk5Dol8U/wP7JeHRGfF/BP8Ylp+ qRGy/a77ILw0OxxIDDwIvo82s4pv6vocWFCH3cpm5ig3gOlNhlL6QXF0NBt0rpkFJcgz tTOg==
+ARC-Authentication-Results: i=1; mx.google.com; dkim=pass header.i=@jbradleyhilton.com header.s=default header.b="R/R2+IW/"; spf=pass (google.com: best guess record for domain of jbradley@host.webservicesdivision.com designates 72.52.250.17 as permitted sender) smtp.mailfrom=jbradley@host.webservicesdivision.com
+Return-Path: <jbradley@host.webservicesdivision.com>
+Received: from host.webservicesdivision.com (host.webservicesdivision.com. [72.52.250.17]) by mx.google.com with ESMTPS id p205-v6si4407882itc.136.2018.09.17.14.45.34 for <derek@marketleverage.com> (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128); Mon, 17 Sep 2018 14:45:35 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of jbradley@host.webservicesdivision.com designates 72.52.250.17 as permitted sender) client-ip=72.52.250.17;
+Authentication-Results: mx.google.com; dkim=pass header.i=@jbradleyhilton.com header.s=default header.b="R/R2+IW/"; spf=pass (google.com: best guess record for domain of jbradley@host.webservicesdivision.com designates 72.52.250.17 as permitted sender) smtp.mailfrom=jbradley@host.webservicesdivision.com
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=jbradleyhilton.com; s=default; h=Sender:Content-Type:MIME-Version: Message-ID:From:Date:Subject:To:Reply-To:Cc:Content-Transfer-Encoding: Content-ID:Content-Description:Resent-Date:Resent-From:Resent-Sender: Resent-To:Resent-Cc:Resent-Message-ID:In-Reply-To:References:List-Id: List-Help:List-Unsubscribe:List-Subscribe:List-Post:List-Owner:List-Archive; bh=PNGwpCHLIz6gWKdZso+hgtS09Ahn0B3PWQMp6Jl783U=; b=R/R2+IW/1Y0UBZ98dCuHSalMK /Y1OP0WCUoEMCDqLNUaMqOZ5O7HP6e7fBeBg+cFqnCo6OXIXIhsXT8aLQHSf1k2VdT+lp3bx1QNrs ze8xkOx2n5+2GtjBdcvctIefNP98kKAkuXCzCOL/8oYhYYm+NQyoZUaqh7fnHoKgQ4WhVlSswLN+4 lKR3FfWOqgE+jd22wpLQZ7zn5EYHUPcF2ZaH8bEmrl/mpTejGa/8Dh3uDmUmPhglNl2nwFqEVckqs pNNqzZlHEZamYL5m3OtzrK5Vu039iCstU8uyX3TApTNm9qlJjODHRcK2eZMvSpVWvPp7MZz71I2wk 2YGqn0KTQ==;
+Received: from jbradley by host.webservicesdivision.com with local (Exim 4.91) (envelope-from <jbradley@host.webservicesdivision.com>) id 1g21Km-00DQ8C-Mr for derek@marketleverage.com; Mon, 17 Sep 2018 16:45:33 -0500
+X-PHP-Script: jbradleyhilton.com/wp-cron.php for 2607:fad0:2160:2:1::73
+X-PHP-Originating-Script: 583:class-phpmailer.php
+Message-ID: <2a9eb919d149df45ec89a4fc52f254bb@jbradleyhilton.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Sender: <jbradley@host.webservicesdivision.com>
+X-OutGoing-Spam-Status: No, score=1.8
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - host.webservicesdivision.com
+X-AntiAbuse: Original Domain - marketleverage.com
+X-AntiAbuse: Originator/Caller UID/GID - [583 501] / [47 12]
+X-AntiAbuse: Sender Address Domain - host.webservicesdivision.com
+X-Get-Message-Sender-Via: host.webservicesdivision.com: authenticated_id: jbradley/from_h
+X-Authenticated-Sender: host.webservicesdivision.com: wordpress@jbradleyhilton.com
+X-Source-Dir: jbradleyhilton.com:/public_html
+
+Wordfence activity from September 10, 2018 to September 17, 2018
+Wordfence activity from
+September 10, 2018 to September 17, 2018	
+
+This email was sent from your website http://jbradleyhilton.com and is a summary of security related activity that Wordfence monitors for the period September 10, 2018 to September 17, 2018. NOTE: You are using the free version of Wordfence and are missing out on features like cellphone sign-in, country blocking and detecting if your site IP is sending spam. Click here to upgrade to Wordfence Premium now.
+Top 10 IPs Blocked
+IP 	Country 	Block Count
+201.247.105.84 	  SV 	52
+172.245.244.28 	  US 	1
+104.168.7.39 	  US 	1
+
+Update Blocked IPs
+Top 10 Countries Blocked
+Country 	Total IPs Blocked 	Block Count
+  SV 	2 	52
+  US 	2 	2
+
+Update Blocked Countries
+Top 10 Failed Logins
+Username 	Login Attempts 	Existing User
+No failed logins yet.
+
+Update Login Security Options
+Recently Blocked Attacks
+Time 	IP / Action
+No blocked attacks yet.
+
+View Recent Traffic
+Recently Modified Files
+Modified 	File
+September 12, 2018 10:03pm 	
+
+wp-content/plugins/wordfence/index.php
+
+September 12, 2018 10:03pm 	
+
+wp-content/plugins/wordfence/images/flags/tv.png
+
+September 12, 2018 10:03pm 	
+
+wp-content/plugins/wordfence/images/flags/tm.png
+
+September 12, 2018 10:03pm 	
+
+wp-content/plugins/wordfence/images/flags/dk.png
+
+September 12, 2018 10:03pm 	
+
+wp-content/plugins/wordfence/images/flags/ga.png
+
+September 12, 2018 10:03pm 	
+
+wp-content/plugins/wordfence/images/flags/mv.png
+
+September 12, 2018 10:03pm 	
+
+wp-content/plugins/wordfence/images/flags/np.png
+
+September 12, 2018 10:03pm 	
+
+wp-content/plugins/wordfence/images/flags/il.png
+
+September 12, 2018 10:03pm 	
+
+wp-content/plugins/wordfence/images/flags/gm.png
+
+September 12, 2018 10:03pm 	
+
+wp-content/plugins/wordfence/images/flags/vg.png
+
+This list may include WordPress core/plugin/theme updates, error logs, cache files, and other normal changes.
+Updates Needed
+Plugins
+
+    A new version of the plugin "Simple History (v2.28.1)" is available.
+
+Update Now
+
+If you would like to sign-in to http://jbradleyhilton.com please click here now. You can change the frequency of this email or turn it on and off by visiting your Wordfence options page.
+
+No longer an administrator for this site? Click here to stop receiving security alerts.

@@ -1,0 +1,124 @@
+Subject: Wordfence activity for September 3, 2018 on gatewaysportsvillage.com
+From: WordPress <wordpress@gatewaysportsvillage.com>
+Date: 9/3/18, 11:17 AM
+To: derek@marketleverage.com
+Delivered-To: derek@marketleverage.com
+Received: by 2002:aed:3862:0:0:0:0:0 with SMTP id j89-v6csp3017501qte; Mon, 3 Sep 2018 09:17:25 -0700 (PDT)
+X-Google-Smtp-Source: ANB0VdZ0/kc8zXAz7/elVta3uDcgN834pXFwp0wAOhInkXVkGn6XWH3J5O6LfsabRpP20RJEUeYq
+X-Received: by 2002:a6b:8fd0:: with SMTP id r199-v6mr19662571iod.118.1535991445233; Mon, 03 Sep 2018 09:17:25 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1535991445; cv=none; d=google.com; s=arc-20160816; b=IwuPpvZtHZpAcQHjoo3I8AWBZRuUUv7AkJVwTuAroH0Q+JHszdPNW5Zhio3pzv3i9r 9brdbodb9FgBkAWHirI4zOm4I2ggrhS+i2qPA4QHD8aiFMsLjLMnwrzhNMKTLIdGGh8b 7WLJxd80N5xQ5XSb1s16euxNbZ9wPA6Sv2qAk/u1QwNzl0J99LJu4s2WN6KOSxas4VWG nvvyWQEkcH7kfooHIQ8F87+Cuy1Ntxy3Y75hjBuJ99BViAkWLfnk/GvBOLNf/C4xMwkq Pzwf1vALBztcrS0xpI8KhKMFzeG9Pdy5vjHM3I6keyZeyw/zXVDejQqYVqOa9F6d3TpN iKLw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816; h=sender:mime-version:message-id:from:date:subject:to:dkim-signature :arc-authentication-results; bh=Yor2pTLIxs4gW0FVXJzKVJw0IK0gvnOa+D6A1qD42OY=; b=ucykPgA8kyOic/7+CD28d1VZqLrJQC5srQguFIIU0wBrUQfPUq6KYls6JK9eEkL2H7 Ri9FMrzAWYnEJFWgYOnAgQq+T6EtPDhiG1QxXlXGoXrVu7DcNnV7DjirtDxc5ghN+gBv fQj6edkIoRFjmeVsXuxCwwCp5tsKlY9ZyIMv1bgUyE89boUrL+Ns2b0RyTMKeyGQVWKF H8b4RHrJP1g47XMNIFaDXyqNvcuQoqkOep77uNp1lAem2zqM+gpjm70cqoqJuJiGwBeN N+85rkat0s5DAbHbo+ylIsi9j6//7IbVFRUz6bIR4b+3OwQk9mxGj16acct4/2EqHxaM AViA==
+ARC-Authentication-Results: i=1; mx.google.com; dkim=pass header.i=@gatewaysportsvillage.com header.s=default header.b=EsJiGbtS; spf=pass (google.com: best guess record for domain of gatewayw@host.webservicesdivision.com designates 72.52.250.17 as permitted sender) smtp.mailfrom=gatewayw@host.webservicesdivision.com
+Return-Path: <gatewayw@host.webservicesdivision.com>
+Received: from host.webservicesdivision.com (host.webservicesdivision.com. [72.52.250.17]) by mx.google.com with ESMTPS id j26-v6si11188677jam.96.2018.09.03.09.17.24 for <derek@marketleverage.com> (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128); Mon, 03 Sep 2018 09:17:25 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of gatewayw@host.webservicesdivision.com designates 72.52.250.17 as permitted sender) client-ip=72.52.250.17;
+Authentication-Results: mx.google.com; dkim=pass header.i=@gatewaysportsvillage.com header.s=default header.b=EsJiGbtS; spf=pass (google.com: best guess record for domain of gatewayw@host.webservicesdivision.com designates 72.52.250.17 as permitted sender) smtp.mailfrom=gatewayw@host.webservicesdivision.com
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=gatewaysportsvillage.com; s=default; h=Sender:Content-Type:MIME-Version: Message-ID:From:Date:Subject:To:Reply-To:Cc:Content-Transfer-Encoding: Content-ID:Content-Description:Resent-Date:Resent-From:Resent-Sender: Resent-To:Resent-Cc:Resent-Message-ID:In-Reply-To:References:List-Id: List-Help:List-Unsubscribe:List-Subscribe:List-Post:List-Owner:List-Archive; bh=Yor2pTLIxs4gW0FVXJzKVJw0IK0gvnOa+D6A1qD42OY=; b=EsJiGbtSe7CKjJ9lfUlTkZIJf 4Ccwjh/htkOtJI2q+KgS8wF4rhDsm1jyNJMojRd0xhvcBTFXQlEnpoDGzv/RXBLw9+O3ZhigYTkQs TxZqCsEEA1saCo6GN8m6VZ2cjiGmy457fkT2wJFIOfEsfiXUmuBb0KqdyRO9jCALpMiBb1wVa+lgE aWNFAGDmgkKE03r+ipBKWqt1x3qxUWdepGjwZGXZTslA+hxMmYB44+kGzFSUgYcRkXvLCM2somtbb 1eGbBz2ewJaZjrBAG7DRznkvkNJx7+OR1hASGPC9OF4b9mGXZ/gDRAIO/xZITj8rhGKKNCHNPyJnA Mb419GJlg==;
+Received: from gatewayw by host.webservicesdivision.com with local (Exim 4.91) (envelope-from <gatewayw@host.webservicesdivision.com>) id 1fwrXX-000QxB-8I for derek@marketleverage.com; Mon, 03 Sep 2018 11:17:24 -0500
+X-PHP-Script: gatewaysportsvillage.com/wp-cron.php for 2607:fad0:2160:2:1::57
+X-PHP-Originating-Script: 577:class-phpmailer.php
+Message-ID: <89e39e099daf778a85908fb16587591c@gatewaysportsvillage.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Sender: <gatewayw@host.webservicesdivision.com>
+X-OutGoing-Spam-Status: No, score=1.8
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - host.webservicesdivision.com
+X-AntiAbuse: Original Domain - marketleverage.com
+X-AntiAbuse: Originator/Caller UID/GID - [577 501] / [47 12]
+X-AntiAbuse: Sender Address Domain - host.webservicesdivision.com
+X-Get-Message-Sender-Via: host.webservicesdivision.com: authenticated_id: gatewayw/from_h
+X-Authenticated-Sender: host.webservicesdivision.com: wordpress@gatewaysportsvillage.com
+X-Source-Dir: gatewaysportsvillage.com:/public_html
+
+Wordfence activity from August 27, 2018 to September 3, 2018
+Wordfence activity from
+August 27, 2018 to September 3, 2018	
+
+This email was sent from your website http://gatewaysportsvillage.com and is a summary of security related activity that Wordfence monitors for the period August 27, 2018 to September 3, 2018. NOTE: You are using the free version of Wordfence and are missing out on features like cellphone sign-in, country blocking and detecting if your site IP is sending spam. Click here to upgrade to Wordfence Premium now.
+Top 10 IPs Blocked
+IP 	Country 	Block Count
+193.169.252.111 	  UA 	1462
+200.98.197.76 	  BR 	207
+51.254.0.93 	  FR 	201
+58.250.169.41 	  CN 	3
+222.86.190.44 	  CN 	2
+18.191.80.131 	  US 	1
+54.167.164.162 	  US 	1
+34.214.191.99 	  US 	1
+54.165.118.103 	  US 	1
+18.236.90.232 	  US 	1
+
+Update Blocked IPs
+Top 10 Countries Blocked
+Country 	Total IPs Blocked 	Block Count
+  UA 	1 	1462
+  BR 	1 	207
+  FR 	1 	201
+  US 	11 	11
+  CN 	2 	5
+
+Update Blocked Countries
+Top 10 Failed Logins
+Username 	Login Attempts 	Existing User
+admin 	11 	No
+gatewaysportsvillage 	4 	No
+test 	4 	No
+editor 	2 	No
+badmin 	1 	No
+magico 	1 	No
+indoxploit 	1 	No
+admina 	1 	No
+schatzi 	1 	No
+0x1999 	1 	No
+
+Update Login Security Options
+Recently Blocked Attacks
+Time 	IP / Action
+September 1, 2018
+8:12pm 	
+58.250.169.41 (China)
+
+Blocked for XSS: Cross Site Scripting in POST body: data=data:image/php;base64,PD9waHAgcGhwaW5mbygpOz8+
+
+September 1, 2018
+8:12pm 	
+58.250.169.41 (China)
+
+Blocked for Directory Traversal in query string: install_demo_name=../data/admin/config_update.php
+
+September 1, 2018
+8:12pm 	
+58.250.169.41 (China)
+
+Blocked for Malicious File Upload (Patterns)
+
+August 31, 2018
+10:31pm 	
+222.86.190.44 (China)
+
+Blocked for XSS: Cross Site Scripting in POST body: data=data:image/php;base64,PD9waHAgcGhwaW5mbygpOz8+
+
+August 31, 2018
+10:31pm 	
+222.86.190.44 (China)
+
+Blocked for Directory Traversal in query string: install_demo_name=../data/admin/config_update.php
+
+View Recent Traffic
+Recently Modified Files
+Modified 	File
+This list may include WordPress core/plugin/theme updates, error logs, cache files, and other normal changes.
+Updates Needed
+Plugins
+
+    A new version of the plugin "EZP Coming Soon Page (v1.0.7)" is available.
+    A new version of the plugin "Master Slider (v3.5.1)" is available.
+    A new version of the plugin "Wordfence Security (v7.1.11)" is available.
+    A new version of the plugin "WP Legal Pages (v2.1)" is available.
+    A new version of the plugin "WP Smush (v2.8.1)" is available.
+
+Update Now
+
+If you would like to sign-in to http://gatewaysportsvillage.com please click here now. You can change the frequency of this email or turn it on and off by visiting your Wordfence options page.

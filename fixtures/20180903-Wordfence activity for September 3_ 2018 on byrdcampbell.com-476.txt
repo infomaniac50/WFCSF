@@ -1,0 +1,155 @@
+Subject: Wordfence activity for September 3, 2018 on byrdcampbell.com
+From: WordPress <wordpress@byrdcampbell.com>
+Date: 9/3/18, 11:01 AM
+To: derek@marketleverage.com
+Delivered-To: derek@marketleverage.com
+Received: by 2002:aed:3862:0:0:0:0:0 with SMTP id j89-v6csp2998610qte; Mon, 3 Sep 2018 09:01:26 -0700 (PDT)
+X-Google-Smtp-Source: ANB0VdYl8J6A5bBHQ+Yt1E92HlkECbcxL8T+NR3sxeHfFSVRq+dSpjyRZQ4diggAfZhUV/tUMegb
+X-Received: by 2002:a6b:3451:: with SMTP id b78-v6mr19686464ioa.214.1535990486694; Mon, 03 Sep 2018 09:01:26 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1535990486; cv=none; d=google.com; s=arc-20160816; b=PX5vc1rHvnd7Z1VngecmQPM7XyOHddLamTxLJlng3J2GnitZwhwKXwfENrdoyjKzJh fZRuTZehdwMgwmshigWajklPhS3a+9c/L7obl8LBFvz+8sYxaol3DPOeHVofrUJ8Wlpj g0/SUrO2XXgODuwZLC9c2dfER/u7KfaPS1Tjj44czdTAWLkKHcodTaSoy6uAIK/gSYYn QX1pq7+lASSqqaZQgnXDGMP8kIsijUus00sRDdAVyGfFZe8KbrhIZv9Ig3Rbb9beVQbH wZ+r5pEKQw4V4iU+lfwaEXiynNJIxImPBU2xc4nxK9uhW8ALJ5Vy2xY3+BNVZiO/nXXg T7VQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816; h=sender:mime-version:message-id:from:date:subject:to:dkim-signature :arc-authentication-results; bh=CMAmL6nvfeg29DxN+2K8i/BE7xPzxKXJxMolt29fFC8=; b=KFhzMZGfBmN/uvmQcWxq+VRx4HN96xM0OyeI3hRqFhqnC9qL4LlmPcMm+AgwQ/WGaC 7XCb94vhWsskllOEOaSKhAvvlOoOx9XRZpO74hsSjlIY86jrlUlBaEXAZ8L8tc4A+Qky qDxbT4IHcOpf1C3b8Gl9JXUUIkm1izTc7siJnv2g48TsKXYQRsK9n3Gbd39Y2S1MBuDQ N7wGjkn17dZjTAlBNVk56Yy8ZU0VtQVo3FUAsCY6/482/keg+6QLp9Mo+HMnSSPQwMlv QO9+Q6VnD3o0kYF0nJ5XGRq0hGZ9CQi5BNEddKax+QR4YDtukd3rLNlUaCCpLZVt8tMX 10mA==
+ARC-Authentication-Results: i=1; mx.google.com; dkim=temperror (no key for signature) header.i=@byrdcampbell.com header.s=default header.b=r5YoC3PM; spf=pass (google.com: best guess record for domain of byrdcamp@host.webservicesdivision.com designates 72.52.250.17 as permitted sender) smtp.mailfrom=byrdcamp@host.webservicesdivision.com
+Return-Path: <byrdcamp@host.webservicesdivision.com>
+Received: from host.webservicesdivision.com (host.webservicesdivision.com. [72.52.250.17]) by mx.google.com with ESMTPS id h13-v6si10462206iok.273.2018.09.03.09.01.25 for <derek@marketleverage.com> (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128); Mon, 03 Sep 2018 09:01:26 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of byrdcamp@host.webservicesdivision.com designates 72.52.250.17 as permitted sender) client-ip=72.52.250.17;
+Authentication-Results: mx.google.com; dkim=temperror (no key for signature) header.i=@byrdcampbell.com header.s=default header.b=r5YoC3PM; spf=pass (google.com: best guess record for domain of byrdcamp@host.webservicesdivision.com designates 72.52.250.17 as permitted sender) smtp.mailfrom=byrdcamp@host.webservicesdivision.com
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=byrdcampbell.com; s=default; h=Sender:Content-Type:MIME-Version:Message-ID: From:Date:Subject:To:Reply-To:Cc:Content-Transfer-Encoding:Content-ID: Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc :Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe: List-Subscribe:List-Post:List-Owner:List-Archive; bh=CMAmL6nvfeg29DxN+2K8i/BE7xPzxKXJxMolt29fFC8=; b=r5YoC3PMTmxFMuEcShrjbIfXeu bKVUDLlblKLeXDqggxbRHr0Jug2iKR4OrtSDQFQ25er9uu98v/WtWXodBGzwqngxLyJFglrQTNoH0 UtqFUerLV53xwc555odeVkGkk56ETbzkBhpO2DmoiDr2JDDTEVmzKurDKU325UWDVJ1bUhkDUl+ED WxVGgQiIrMtHDPHBYrqTLn2JmSG4nBepHdUUYBpBv/Ji0GAGBP1Yf1n9rkan0ecrdDbUPA3qHApBe n2Mbd9viMzUi2mQk8QSJY0T2jsJVrP9Bx7zMzHKmg1mwyNEJeLAggoedYindzvbxW3VnYGo0q6BZ8 nQHpgmpQ==;
+Received: from byrdcamp by host.webservicesdivision.com with local (Exim 4.91) (envelope-from <byrdcamp@host.webservicesdivision.com>) id 1fwrI4-000QPn-Qu for derek@marketleverage.com; Mon, 03 Sep 2018 11:01:25 -0500
+X-PHP-Script: byrdcampbell.com/wp-cron.php for 72.52.250.17
+X-PHP-Originating-Script: 646:class-phpmailer.php
+Message-ID: <677c769f338d0699bf59b75606495dd9@byrdcampbell.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Sender: <byrdcamp@host.webservicesdivision.com>
+X-OutGoing-Spam-Status: No, score=1.8
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - host.webservicesdivision.com
+X-AntiAbuse: Original Domain - marketleverage.com
+X-AntiAbuse: Originator/Caller UID/GID - [646 501] / [47 12]
+X-AntiAbuse: Sender Address Domain - host.webservicesdivision.com
+X-Get-Message-Sender-Via: host.webservicesdivision.com: authenticated_id: byrdcamp/from_h
+X-Authenticated-Sender: host.webservicesdivision.com: wordpress@byrdcampbell.com
+X-Source-Dir: byrdcampbell.com:/public_html
+
+Wordfence activity from August 27, 2018 to September 3, 2018
+Wordfence activity from
+August 27, 2018 to September 3, 2018	
+
+This email was sent from your website http://byrdcampbell.com and is a summary of security related activity that Wordfence monitors for the period August 27, 2018 to September 3, 2018. NOTE: You are using the free version of Wordfence and are missing out on features like cellphone sign-in, country blocking and detecting if your site IP is sending spam. Click here to upgrade to Wordfence Premium now.
+Top 10 IPs Blocked
+IP 	Country 	Block Count
+45.32.169.204 	  US 	65
+34.216.72.198 	  US 	3
+34.220.225.99 	  US 	1
+54.244.193.240 	  US 	1
+52.21.94.227 	  US 	1
+18.237.248.111 	  US 	1
+52.10.42.116 	  US 	1
+18.222.255.100 	  US 	1
+18.191.80.131 	  US 	1
+
+Update Blocked IPs
+Top 10 Countries Blocked
+Country 	Total IPs Blocked 	Block Count
+  US 	10 	75
+
+Update Blocked Countries
+Top 10 Failed Logins
+Username 	Login Attempts 	Existing User
+admin 	9 	No
+byrdcampbell 	4 	No
+magico 	1 	No
+indoxploit 	1 	No
+test 	1 	No
+admina 	1 	No
+schatzi 	1 	No
+
+Update Login Security Options
+Recently Blocked Attacks
+Time 	IP / Action
+September 1, 2018
+4:19am 	
+45.32.169.204 (United States)
+
+Blocked for Malicious File Upload (PHP)
+
+September 1, 2018
+4:19am 	
+45.32.169.204 (United States)
+
+Blocked for Malicious File Upload (PHP)
+
+September 1, 2018
+4:19am 	
+45.32.169.204 (United States)
+
+Blocked for Malicious File Upload (PHP)
+
+September 1, 2018
+4:19am 	
+45.32.169.204 (United States)
+
+Blocked for MailPoet <= 2.6.7 - Arbitrary File Upload
+
+September 1, 2018
+4:19am 	
+45.32.169.204 (United States)
+
+Blocked for a Malicious File Upload in file: files=jsspwned.php
+
+September 1, 2018
+4:19am 	
+45.32.169.204 (United States)
+
+Blocked for WP Mobile Detector <= 3.5 - Arbitrary File Upload
+
+September 1, 2018
+4:19am 	
+45.32.169.204 (United States)
+
+Blocked for Malicious File Upload (PHP)
+
+September 1, 2018
+4:19am 	
+45.32.169.204 (United States)
+
+Blocked for Malicious File Upload (PHP)
+
+September 1, 2018
+4:19am 	
+45.32.169.204 (United States)
+
+Blocked for Malicious File Upload (PHP)
+
+September 1, 2018
+4:19am 	
+45.32.169.204 (United States)
+
+Blocked for Malicious File Upload (PHP)
+
+and 55 additional attacks
+
+View Recent Traffic
+Recently Modified Files
+Modified 	File
+August 30, 2018 9:58pm 	
+
+wp-content/uploads/2018/08/ninja-forms-submission.csv
+
+This list may include WordPress core/plugin/theme updates, error logs, cache files, and other normal changes.
+Updates Needed
+Plugins
+
+    A new version of the plugin "All In One WP Security (v4.3.6)" is available.
+    A new version of the plugin "Duplicator (v1.2.42)" is available.
+    A new version of the plugin "EWWW Image Optimizer (v4.3.2)" is available.
+    A new version of the plugin "Ninja Forms (v3.3.15)" is available. This update includes security-related fixes.	
+    A new version of the plugin "Redirection (v3.4)" is available.
+    A new version of the plugin "UpdraftPlus - Backup/Restore (v1.14.13)" is available.
+    A new version of the plugin "Wordfence Security (v7.1.11)" is available.
+    A new version of the plugin "Yoast SEO (v8.1.1)" is available.
+
+Update Now
+
+If you would like to sign-in to http://byrdcampbell.com please click here now. You can change the frequency of this email or turn it on and off by visiting your Wordfence options page.

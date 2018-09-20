@@ -1,0 +1,100 @@
+Subject: Wordfence activity for September 10, 2018 on byrdcampbell.com
+From: WordPress <wordpress@byrdcampbell.com>
+Date: 9/10/18, 11:00 AM
+To: derek@marketleverage.com
+Delivered-To: derek@marketleverage.com
+Received: by 2002:aed:3862:0:0:0:0:0 with SMTP id j89-v6csp3157898qte; Mon, 10 Sep 2018 09:00:10 -0700 (PDT)
+X-Google-Smtp-Source: ANB0VdajY7+V1lLN7VCEsqMrA7QpCmf1g2rxaObBEY5R1SjQycbBQ4qdi0kJqshbjP8+Y544kqdD
+X-Received: by 2002:a24:ad2e:: with SMTP id c46-v6mr18231827itf.82.1536595210593; Mon, 10 Sep 2018 09:00:10 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1536595210; cv=none; d=google.com; s=arc-20160816; b=hksE5ld/czvNlRl0umX/xACfi9eOdoxNF3FOSAYxqwimo9hSMm+Qr0fZHsT8v7LCMB CDKiqOxkBVr60vLY9j8l4rWJYbnQypgg/s6LvoufT9ibOqaFHKEJQSa9KZFwU7AdKXmn zPuIXRYn5NFzDBJhMSw+hEfBWUxEanPS+AOKNXAMbaCFToaJdgqPS7UuCM3JmtGP/56A S7rYOhI76SmAyWN0fcYo33/LHZ9TJF0EUCtyTvlXMx3Pk1cQQIysen8AS473cEl18j85 c10N9eRapxu0/qGYQ/3QTzcVUSQYWQLvyOGMGE4KO6BhYWFlPfO5nssiXspOhFqzXS7S dafg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816; h=sender:mime-version:message-id:from:date:subject:to:dkim-signature; bh=1DnHVxFqmtt5oplI8P5IGXMWMrW3c2mpvWbg0/rkl7Y=; b=W9Q4wFoy5r6atppWKlePZHzXQuKAg2RGNhF+OOfH8Xn0KgbnRN87Y0Ywf/zBUS4NLz TPcGwj3lVtjSxmH3f+CsnvYvUdjiR55jXTzbftVmkGfeLcXjWgyqDbqd7oWQg8mCp50k w2U3vCoJnf7YvnTuVzDZzj/QeksmvC0MRv64M1sx5sfCI28MGiBe9lW6sTSOMsAFj55y 6H7EUdhAxI3oK0XKXeWX6dWOfNXHYxt26BrdqAOq9SNZFEVb6jWnhIQC6n9hbd/ll0rM gWfTOv90vtQnMVSbkkDD0XBmRaoRYvXTYmlB0r08nBitZSEv76fZ6GliLzAtSXM3B2jZ 7uxw==
+ARC-Authentication-Results: i=1; mx.google.com; dkim=temperror (no key for signature) header.i=@byrdcampbell.com header.s=default header.b=JtP6qZjY; spf=pass (google.com: best guess record for domain of byrdcamp@host.webservicesdivision.com designates 72.52.250.17 as permitted sender) smtp.mailfrom=byrdcamp@host.webservicesdivision.com
+Return-Path: <byrdcamp@host.webservicesdivision.com>
+Received: from host.webservicesdivision.com (host.webservicesdivision.com. [72.52.250.17]) by mx.google.com with ESMTPS id r19-v6si11641214jad.135.2018.09.10.09.00.10 for <derek@marketleverage.com> (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128); Mon, 10 Sep 2018 09:00:10 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of byrdcamp@host.webservicesdivision.com designates 72.52.250.17 as permitted sender) client-ip=72.52.250.17;
+Authentication-Results: mx.google.com; dkim=temperror (no key for signature) header.i=@byrdcampbell.com header.s=default header.b=JtP6qZjY; spf=pass (google.com: best guess record for domain of byrdcamp@host.webservicesdivision.com designates 72.52.250.17 as permitted sender) smtp.mailfrom=byrdcamp@host.webservicesdivision.com
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=byrdcampbell.com; s=default; h=Sender:Content-Type:MIME-Version:Message-ID: From:Date:Subject:To:Reply-To:Cc:Content-Transfer-Encoding:Content-ID: Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc :Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe: List-Subscribe:List-Post:List-Owner:List-Archive; bh=1DnHVxFqmtt5oplI8P5IGXMWMrW3c2mpvWbg0/rkl7Y=; b=JtP6qZjYtc7TQv+ASvc8xPQmVW qT/5xAsEgh6rxT3MeQNAJEqycEIiyrJhJ9aKFAXJ1zZ8wOvxvXE1iwqlhseXtc9F+e2g8q7PhRqAJ Gk7wtsIMYkgG3zdREwYoIG2dBuCwZyFS1JhqR9hfAo4N6VHz7vP58mo/cfeSfCFIQPKSIjUnBxeuJ rX7SUU93o+ut2EzJKXrWhfbkqOxlm/wulW5c7uSkT9iZWaN5FI06owpNOk/RMDfTNw09hL0c7xnMT 8q4whgJKzv9a0p6u2xucsSkWkoKRQ+Hr6vy3BlVT+MqDr4ajJebeZDC3pYqV6lgQJ8ZrBo63HkbJA fVOj6j0Q==;
+Received: from byrdcamp by host.webservicesdivision.com with local (Exim 4.91) (envelope-from <byrdcamp@host.webservicesdivision.com>) id 1fzObf-006Yq2-3y for derek@marketleverage.com; Mon, 10 Sep 2018 11:00:08 -0500
+X-PHP-Script: byrdcampbell.com/wp-cron.php for 72.52.250.17
+X-PHP-Originating-Script: 646:class-phpmailer.php
+Message-ID: <8cc78258d0fc62dbe66e89d18cdea063@byrdcampbell.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Sender: <byrdcamp@host.webservicesdivision.com>
+X-OutGoing-Spam-Status: No, score=1.8
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - host.webservicesdivision.com
+X-AntiAbuse: Original Domain - marketleverage.com
+X-AntiAbuse: Originator/Caller UID/GID - [646 501] / [47 12]
+X-AntiAbuse: Sender Address Domain - host.webservicesdivision.com
+X-Get-Message-Sender-Via: host.webservicesdivision.com: authenticated_id: byrdcamp/from_h
+X-Authenticated-Sender: host.webservicesdivision.com: wordpress@byrdcampbell.com
+X-Source-Dir: byrdcampbell.com:/public_html
+
+Wordfence activity from September 3, 2018 to September 10, 2018
+Wordfence activity from
+September 3, 2018 to September 10, 2018	
+
+This email was sent from your website https://byrdcampbell.com and is a summary of security related activity that Wordfence monitors for the period September 3, 2018 to September 10, 2018. NOTE: You are using the free version of Wordfence and are missing out on features like cellphone sign-in, country blocking and detecting if your site IP is sending spam. Click here to upgrade to Wordfence Premium now.
+Top 10 IPs Blocked
+IP 	Country 	Block Count
+79.121.40.43 	  HU 	276
+40.78.17.46 	  US 	13
+193.201.224.220 	  UA 	2
+193.201.224.210 	  UA 	1
+188.129.172.77 	  GE 	1
+139.199.72.40 	  CN 	1
+
+Update Blocked IPs
+Top 10 Countries Blocked
+Country 	Total IPs Blocked 	Block Count
+  HU 	2 	276
+  US 	1 	13
+  UA 	2 	3
+  GE 	1 	1
+  CN 	1 	1
+
+Update Blocked Countries
+Top 10 Failed Logins
+Username 	Login Attempts 	Existing User
+byrdcampbell 	79 	No
+test 	5 	No
+admin 	1 	No
+
+Update Login Security Options
+Recently Blocked Attacks
+Time 	IP / Action
+No blocked attacks yet.
+
+View Recent Traffic
+Recently Modified Files
+Modified 	File
+September 10, 2018 11:35am 	
+
+wp-content/uploads/2018/09/ninja-forms-submission.csv
+
+September 9, 2018 2:44pm 	
+
+error_log
+
+September 6, 2018 1:05pm 	
+
+wp-content/uploads/revslider/templates/le-chef-philosophy/slide1.jpg
+
+This list may include WordPress core/plugin/theme updates, error logs, cache files, and other normal changes.
+Updates Needed
+Plugins
+
+    A new version of the plugin "All In One WP Security (v4.3.6)" is available.
+    A new version of the plugin "Duplicator (v1.2.42)" is available. This update includes security-related fixes.	
+    A new version of the plugin "EWWW Image Optimizer (v4.3.2)" is available.
+    A new version of the plugin "Ninja Forms (v3.3.15)" is available. This update includes security-related fixes.	
+    A new version of the plugin "Redirection (v3.4.1)" is available.
+    A new version of the plugin "UpdraftPlus - Backup/Restore (v1.14.13)" is available.
+    A new version of the plugin "Wordfence Security (v7.1.11)" is available.
+    A new version of the plugin "Yoast SEO (v8.1.2)" is available.
+
+Update Now
+
+If you would like to sign-in to https://byrdcampbell.com please click here now. You can change the frequency of this email or turn it on and off by visiting your Wordfence options page.

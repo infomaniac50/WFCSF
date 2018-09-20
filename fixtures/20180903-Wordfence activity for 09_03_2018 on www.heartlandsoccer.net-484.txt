@@ -1,0 +1,116 @@
+Subject: Wordfence activity for 09/03/2018 on www.heartlandsoccer.net
+From: WordPress <info@heartlandsoccer.net>
+Date: 9/3/18, 4:00 PM
+To: derek@marketleverage.com
+Delivered-To: derek@marketleverage.com
+Received: by 2002:aed:3862:0:0:0:0:0 with SMTP id j89-v6csp3279646qte; Mon, 3 Sep 2018 14:00:05 -0700 (PDT)
+X-Received: by 2002:a24:eec7:: with SMTP id b190-v6mr5723453iti.32.1536008405661; Mon, 03 Sep 2018 14:00:05 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1536008405; cv=none; d=google.com; s=arc-20160816; b=Ax0q/ZGNXBO5chmYZruW+KrLb5N+tGA1f2mm1eOX/jgBjzCUGJIFxf/YKPMb5CeNHt 4GQjE0BNlqY1mJImZZEsHrg1xF1CYRRQMe0Wh2uIG7JVa6h0kN5IvZXxfVoNVyJi6Vtx PuGCwCJLnKKFtlW4AUJiSMzNaKtNnxkYR2Tve7jZ/gBLYSfFESRtMfjTeSlbHLMfiQLf umu22UAHGn5sOEn0iwazFPPDiShAPMOb3yHb6wC3vTV22xywFjYaLxUM3mi0MymGZVeW /sotu75dIXf6tMTCBXF8ay87mRSi88xxh051VRA7Qp1RlyfQNJkqFPtXUDVS/d8BxglI HIWA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816; h=mime-version:message-id:subject:from:to:date:dkim-signature :arc-authentication-results; bh=vjrV4x+/nwQYRPMjbMbgbxU7mjaqyHxQlGjbfruRVhI=; b=uUESLvmd88eCxttlRa9PpRk50kAoe+r8oSAJNp8glFRKAVFvoieQipLf8CW/9OitwZ J08rd+uLX84JAUcLhLwhykZeH3XydLk1ySlVguX3WULMCkgk3IV4H2Lq0n18hkYzH3CM jumJA8me7hrtXaAfJgGruRegv3MulJiiF64tYg9HzCca2OX28krEbgMM8QtB7RhTo4Mo RKdfcGf8FEF1+H3O1TgqN1NdtFJfS9gPv2E03inpAqpCPm14Uc523h39mpnskgq+WEP9 KVOMfeG4S5ZJndIPc0tI8sVDzV64qUg/FYAiCrwP2aGiixFw3PWdqZSUT6kw/WMPDoTa +g1w==
+ARC-Authentication-Results: i=1; mx.google.com; dkim=pass header.i=@heartlandsoccer-net.20150623.gappssmtp.com header.s=20150623 header.b=LJw2aluD; spf=pass (google.com: domain of info@heartlandsoccer.net designates 209.85.220.41 as permitted sender) smtp.mailfrom=info@heartlandsoccer.net
+Return-Path: <info@heartlandsoccer.net>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41]) by mx.google.com with SMTPS id s13-v6sor6695765ioa.41.2018.09.03.14.00.05 for <derek@marketleverage.com> (Google Transport Security); Mon, 03 Sep 2018 14:00:05 -0700 (PDT)
+Received-SPF: pass (google.com: domain of info@heartlandsoccer.net designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com; dkim=pass header.i=@heartlandsoccer-net.20150623.gappssmtp.com header.s=20150623 header.b=LJw2aluD; spf=pass (google.com: domain of info@heartlandsoccer.net designates 209.85.220.41 as permitted sender) smtp.mailfrom=info@heartlandsoccer.net
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=heartlandsoccer-net.20150623.gappssmtp.com; s=20150623; h=date:to:from:subject:message-id:mime-version; bh=vjrV4x+/nwQYRPMjbMbgbxU7mjaqyHxQlGjbfruRVhI=; b=LJw2aluDSZBAtYSw//Bx1sB1S5GoB7i3ZOcSOIYuXaK+4rvECPo0NX0IgnfTj+DxPL IrNPyTvYYBElYiKz7PMuu87T015B6aac9tv8YZKGoqc+SDAOaktlaN4ULc2oRQD6mNK4 lsT84eve0Xh3ZNZFLSTX6ETKvfrvHPh7r8ByKti53WZN3FhxQqbJOsD0TwzH8VgQdZlx 9Wn8P/Pvlqu7fNXo+SR+E2reJnm8Uw0hmIv6P773GG/waM8Zo4TtlgSKMBpwKgKMob37 um5DiVTzOV5J8con4sGwBJMRwvXxkjPXljL1HuMaRjXtYEdWDhLmC8KrviAfsXTdaH0h jnig==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20161025; h=x-gm-message-state:date:to:from:subject:message-id:mime-version; bh=vjrV4x+/nwQYRPMjbMbgbxU7mjaqyHxQlGjbfruRVhI=; b=o8zE9qnpZejsaFp9ftuL3nkG4SD7YnPYloL2g/0EQqzaSacqmj/2al8UVv2+nUXO/C L2TOR9Y/5Cg05Xn88+4/nxdEo2ep1AuNezB5SZlnS3gYh062SebOm/kR8bwztdDa3ECM NGJnmcnH8i/NZABLI/c7ZIMq0Fh9JTb2ZYdJVgu0Kyap21MUdwz2236UhIWzbYuyQ4Se j1T4PlE+AY3YACGHHkxk6gRKz8t0RmyDhviidt+pClUlJpATWXmbKAwPNNuGyQ+rIDZm Hv/pipid6ghOl1VCBHBo/VQZ8eLkAsbgQJQiszsYpyRUt2W/qgvwT3bBrsz1nVNH0Qcc 4GQQ==
+X-Gm-Message-State: APzg51Dg5SbFKb8tyXdxGq4PCbgeWz2AAP2bBAkry5RmRi86AObyi9Kq CEvoRcc78t8W2knNOhxynIyFwRIhwyc=
+X-Google-Smtp-Source: ANB0VdbQkwtLJLi3vUPqu+nDL5nttbbOuDxIKCvd9DuMr+DflDJesMK3o/JOM/lo8bt9ahWN2aytbg==
+X-Received: by 2002:a6b:750a:: with SMTP id l10-v6mr19507234ioh.87.1536008405102; Mon, 03 Sep 2018 14:00:05 -0700 (PDT)
+Return-Path: <info@heartlandsoccer.net>
+Received: from www.heartlandsoccer.net (host.webservicesdivision.com. [2607:fad0:2160:2::]) by smtp.gmail.com with ESMTPSA id l75-v6sm5976309itl.5.2018.09.03.14.00.03 for <derek@marketleverage.com> (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128); Mon, 03 Sep 2018 14:00:04 -0700 (PDT)
+Message-ID: <aed8609dcd64f65033d7c62ff27de2a5@www.heartlandsoccer.net>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+
+Wordfence activity from 08/27/2018 to 09/03/2018
+Wordfence activity from
+08/27/2018 to 09/03/2018	
+
+This email was sent from your website https://www.heartlandsoccer.net and is a summary of security related activity that Wordfence monitors for the period 08/27/2018 to 09/03/2018. NOTE: You are using the free version of Wordfence and are missing out on features like cellphone sign-in, country blocking and detecting if your site IP is sending spam. Click here to upgrade to Wordfence Premium now.
+Top 10 IPs Blocked
+IP 	Country 	Block Count
+54.210.205.63 	  US 	60
+185.236.232.7 	  RU 	19
+34.216.198.197 	  US 	19
+18.212.188.131 	  US 	18
+193.201.224.220 	  UA 	3
+52.213.248.23 	  IE 	2
+193.201.224.17 	  UA 	1
+18.236.167.83 	  US 	1
+54.167.164.162 	  US 	1
+52.37.131.108 	  US 	1
+
+Update Blocked IPs
+Top 10 Countries Blocked
+Country 	Total IPs Blocked 	Block Count
+  US 	20 	111
+  RU 	3 	19
+  UA 	4 	5
+  IE 	2 	2
+
+Update Blocked Countries
+Top 10 Failed Logins
+Username 	Login Attempts 	Existing User
+No failed logins yet.
+
+Update Login Security Options
+Recently Blocked Attacks
+Time 	IP / Action
+No blocked attacks yet.
+
+View Recent Traffic
+Recently Modified Files
+Modified 	File
+September 3, 2018 3:17pm 	
+
+m/application/cache/get_schedules_by_team_index_8647
+
+September 3, 2018 3:17pm 	
+
+m/application/cache/get_team_by_number_8645
+
+September 3, 2018 3:17pm 	
+
+m/application/cache/get_schedules_by_team_index_8646
+
+September 3, 2018 3:17pm 	
+
+m/application/cache/get_schedules_by_team_index_8645
+
+September 3, 2018 3:17pm 	
+
+m/application/cache/get_schedules_by_team_index_8644
+
+September 3, 2018 3:17pm 	
+
+m/application/cache/get_team_by_number_8644
+
+September 3, 2018 3:17pm 	
+
+m/application/cache/get_schedules_by_team_index_8643
+
+September 3, 2018 3:17pm 	
+
+m/application/cache/get_team_by_number_8648
+
+September 3, 2018 3:17pm 	
+
+m/application/cache/get_schedules_by_team_index_8642
+
+September 3, 2018 3:17pm 	
+
+m/application/cache/get_team_by_number_8647
+
+This list may include WordPress core/plugin/theme updates, error logs, cache files, and other normal changes.
+Updates Needed
+Plugins
+
+    A new version of the plugin "Gutenberg (v3.7.0)" is available.
+
+Update Now
+
+If you would like to sign-in to https://www.heartlandsoccer.net please click here now. You can change the frequency of this email or turn it on and off by visiting your Wordfence options page.
+
+No longer an administrator for this site? Click here to stop receiving security alerts.

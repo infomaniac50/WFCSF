@@ -1,0 +1,132 @@
+Subject: Wordfence activity for September 3, 2018 on callcenterglobe.com
+From: WordPress <wordpress@callcenterglobe.com>
+Date: 9/3/18, 2:55 PM
+To: derek@marketleverage.com
+Delivered-To: derek@marketleverage.com
+Received: by 2002:aed:3862:0:0:0:0:0 with SMTP id j89-v6csp3225007qte; Mon, 3 Sep 2018 12:55:20 -0700 (PDT)
+X-Google-Smtp-Source: ANB0VdbkIGu7jiukrDVLOSR/8h1wDDDS4yO3H+ovP/eol6Y3soAbC3Kcp8RaNyL5U4HTUiQrTUjo
+X-Received: by 2002:a24:d786:: with SMTP id y128-v6mr6057189itg.140.1536004520790; Mon, 03 Sep 2018 12:55:20 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1536004520; cv=none; d=google.com; s=arc-20160816; b=k9dBg+yQSbD6lfwIK3kz/Mucz2ymX5l6D91lnjNGUIEoiBQp5w0l0DytZsA1KAbMNp jdZyehp4YVofl5Az3N261C2P9SZOunqdBI7vcUQZdboVzbIvdt0WXyIIwcJzC99Rn1HX BYrYb3Rq5uXCBlyL+vgeBcaJzvDus8zP/habQhmfhFTsPfhXkSENGxdsXbAZ+L0zRLQL jKVhw4zjRTTKdd2aBf1Nkqyi0rytSj7SK0ADlhzEvaQrAx4NuxfN1XFtWbrHVWsjaPpA x/eTQH+2KBKbaA2N12r0NAyHnP+Uzn4yhCMFk63tdGtscrqHCH0qRIpZoZQMnyIQCTcR C6Nw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816; h=sender:mime-version:message-id:from:date:subject:to:dkim-signature :arc-authentication-results; bh=Hm/X4BCvwL27v9EPKwJxGegFu57N4ZI+mnZSt2b/H1w=; b=ArL80+qM0KnNpEjdiY4KzYdhJkFcEJq3uZvBi7q0AHKLQscVF+gPQvnrmUnvL22tk+ cQ25FwIfN2UGJ1hDHfOZP2ZdFmvpCFtoLfAQltV2l18OPF1/Z/KJHb6BbvMnPf1+f+3T 3A977TH7ynVrF5j3h6qaZhlY2rtVRlJkQHpTTMXlNTFhYFXSOWvBSDEa3HUneC+NZ+KG +kUhHG2DEQqZBKXC1DLpl7vBiWrTwkt9krPjywbw0XRUU0VNDwx4vS+C9FYTNGiNOCwV Qgr/AI9kxP4oS8UNm9dIL5Lq7gLQPRVpTQrNLCY1hpkoI58bywVQnyt8jqU7il1VFaAR AfEg==
+ARC-Authentication-Results: i=1; mx.google.com; dkim=pass header.i=@callcenterglobe.com header.s=default header.b=KNYaCjMN; spf=pass (google.com: best guess record for domain of callcent@host.webservicesdivision.com designates 72.52.250.17 as permitted sender) smtp.mailfrom=callcent@host.webservicesdivision.com
+Return-Path: <callcent@host.webservicesdivision.com>
+Received: from host.webservicesdivision.com (host.webservicesdivision.com. [72.52.250.17]) by mx.google.com with ESMTPS id m34-v6si11937370jaj.95.2018.09.03.12.55.20 for <derek@marketleverage.com> (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128); Mon, 03 Sep 2018 12:55:20 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of callcent@host.webservicesdivision.com designates 72.52.250.17 as permitted sender) client-ip=72.52.250.17;
+Authentication-Results: mx.google.com; dkim=pass header.i=@callcenterglobe.com header.s=default header.b=KNYaCjMN; spf=pass (google.com: best guess record for domain of callcent@host.webservicesdivision.com designates 72.52.250.17 as permitted sender) smtp.mailfrom=callcent@host.webservicesdivision.com
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=callcenterglobe.com; s=default; h=Sender:Content-Type:MIME-Version: Message-ID:From:Date:Subject:To:Reply-To:Cc:Content-Transfer-Encoding: Content-ID:Content-Description:Resent-Date:Resent-From:Resent-Sender: Resent-To:Resent-Cc:Resent-Message-ID:In-Reply-To:References:List-Id: List-Help:List-Unsubscribe:List-Subscribe:List-Post:List-Owner:List-Archive; bh=Hm/X4BCvwL27v9EPKwJxGegFu57N4ZI+mnZSt2b/H1w=; b=KNYaCjMNV+x3f31eywtoJ3nGi 4ESmEGYvFSBgkzSPqcMWRKqor/VSWjWUUCg0B7503Mz00aN279N+lRVeYif0+edAoEfNTsCII7iH7 bgyVYXmKb4srGBfsSCjiX6ZeIn3BhS6o0E7iqtI5L78m2rjwzjN8FHdJXCD9gVt1amALfWGFYadX2 10pWrg5nmEGCTRoCFE0pG4gdjfd98HU7mSu8FGhU2TW2GfC1mxMYvwrPKzxs1N7A3HDyst7Tlblyv EXiAOftpCjFlYsFiLURgHF1ptPQhKgzXlSLkEeC0vNOJYCB/2mdBKvWIkfBxbDqhbgAyONkDpyYWA d+0FR0liA==;
+Received: from callcent by host.webservicesdivision.com with local (Exim 4.91) (envelope-from <callcent@host.webservicesdivision.com>) id 1fwuwQ-000XzY-4k for derek@marketleverage.com; Mon, 03 Sep 2018 14:55:19 -0500
+X-PHP-Script: callcenterglobe.com/wp-cron.php for 2607:fad0:2160:2:1::e
+X-PHP-Originating-Script: 704:class-phpmailer.php
+Message-ID: <27c26d49627c96165dcf2f3e88d9adf4@callcenterglobe.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Sender: <callcent@host.webservicesdivision.com>
+X-OutGoing-Spam-Status: No, score=1.8
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - host.webservicesdivision.com
+X-AntiAbuse: Original Domain - marketleverage.com
+X-AntiAbuse: Originator/Caller UID/GID - [704 501] / [47 12]
+X-AntiAbuse: Sender Address Domain - host.webservicesdivision.com
+X-Get-Message-Sender-Via: host.webservicesdivision.com: authenticated_id: callcent/from_h
+X-Authenticated-Sender: host.webservicesdivision.com: wordpress@callcenterglobe.com
+X-Source-Dir: callcenterglobe.com:/public_html
+
+Wordfence activity from August 27, 2018 to September 3, 2018
+Wordfence activity from
+August 27, 2018 to September 3, 2018	
+
+This email was sent from your website http://callcenterglobe.com and is a summary of security related activity that Wordfence monitors for the period August 27, 2018 to September 3, 2018. NOTE: You are using the free version of Wordfence and are missing out on features like cellphone sign-in, country blocking and detecting if your site IP is sending spam. Click here to upgrade to Wordfence Premium now.
+Top 10 IPs Blocked
+IP 	Country 	Block Count
+94.140.140.227 	  RU 	9
+2002:c1a9:fc70::c1a9:fc70 	(Unknown) 	9
+
+Update Blocked IPs
+Top 10 Countries Blocked
+Country 	Total IPs Blocked 	Block Count
+  RU 	1 	9
+(Unknown) 	1 	9
+
+Update Blocked Countries
+Top 10 Failed Logins
+Username 	Login Attempts 	Existing User
+Admin 	19 	Yes
+
+Update Login Security Options
+Recently Blocked Attacks
+Time 	IP / Action
+September 2, 2018
+5:05am 	
+2002:c1a9:fc70::c1a9:fc70 (Unknown)
+
+Blocked for Malicious File Upload (Patterns)
+
+September 2, 2018
+5:04am 	
+2002:c1a9:fc70::c1a9:fc70 (Unknown)
+
+Blocked for Malicious File Upload (Patterns)
+
+September 2, 2018
+5:04am 	
+2002:c1a9:fc70::c1a9:fc70 (Unknown)
+
+Blocked for jQuery HTML5 File Upload <= 3.0 - Unauthenticated Options Update and Arbitrary File Upload
+
+September 2, 2018
+5:03am 	
+2002:c1a9:fc70::c1a9:fc70 (Unknown)
+
+Blocked for a Malicious File Upload in file: upload=sfn.php
+
+September 2, 2018
+5:02am 	
+2002:c1a9:fc70::c1a9:fc70 (Unknown)
+
+Blocked for a Malicious File Upload in file: upload=sfn.php
+
+September 2, 2018
+5:01am 	
+2002:c1a9:fc70::c1a9:fc70 (Unknown)
+
+Blocked for Malicious File Upload (Patterns)
+
+September 2, 2018
+5:01am 	
+2002:c1a9:fc70::c1a9:fc70 (Unknown)
+
+Blocked for Malicious File Upload (Patterns)
+
+September 2, 2018
+4:59am 	
+2002:c1a9:fc70::c1a9:fc70 (Unknown)
+
+Blocked for Slider Revolution: Arbitrary File Upload
+
+September 2, 2018
+4:59am 	
+2002:c1a9:fc70::c1a9:fc70 (Unknown)
+
+Blocked for a Malicious File Upload in file: yiw_contact=sfn.php
+
+September 1, 2018
+5:56am 	
+94.140.140.227 (Russian Federation)
+
+Blocked for Directory Traversal in query string: filename=../../../../../../../../../etc/passwd
+
+View Recent Traffic
+Recently Modified Files
+Modified 	File
+This list may include WordPress core/plugin/theme updates, error logs, cache files, and other normal changes.
+Updates Needed
+Plugins
+
+    A new version of the plugin "Simple History (v2.27)" is available.
+
+Update Now
+
+If you would like to sign-in to http://callcenterglobe.com please click here now. You can change the frequency of this email or turn it on and off by visiting your Wordfence options page.
+
+No longer an administrator for this site? Click here to stop receiving security alerts.

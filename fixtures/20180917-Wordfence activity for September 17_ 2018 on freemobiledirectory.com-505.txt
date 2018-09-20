@@ -1,0 +1,125 @@
+Subject: Wordfence activity for September 17, 2018 on freemobiledirectory.com
+From: Engage Mobile Directory <support@freemobiledirectory.com>
+Date: 9/17/18, 3:00 PM
+To: derek@marketleverage.com
+Delivered-To: derek@marketleverage.com
+Received: by 2002:aed:3862:0:0:0:0:0 with SMTP id j89-v6csp4599399qte; Mon, 17 Sep 2018 13:00:59 -0700 (PDT)
+X-Google-Smtp-Source: ANB0VdY1BbUDMssbK18flUKMj76DiQv1Q8lLGQNA6tfe9nGcoNtmyvebHvG8yq7nmDzcHdXFED7U
+X-Received: by 2002:a24:e3ce:: with SMTP id d197-v6mr13561937ith.34.1537214459308; Mon, 17 Sep 2018 13:00:59 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1537214459; cv=none; d=google.com; s=arc-20160816; b=qBoru0j/Wux1lMShjPh4zEiAi6bWfQSLIjdv4cdNcporRbEugpnZO8I7zyyEJobA9k L+NgBLmVAgGTnWUP1UzQLAPGG+ks5eLV9JqCwyjIVsHchtME5PIswI4nWpPP/wntIDKR oQAjnEjqZSJehsi+QSfJHfpohuoCL37XUuiykWjAu0K/uR1GnkAoKJXndZBv0HidbfZD mipn+dSHIJtrpPLjurOkcRkOhzT4bmLwXe3Kd6p/mtNh04huzkVtPpm1ozbMIMR7BYKt yc+yxOzYW+7MgAKeDxqluOxIeyYJNyUBGV17lSd7/es+V3IPvJoykw8HzSmeqvqltsMy NOCw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816; h=content-transfer-encoding:mime-version:to:from:subject:date :message-id:dkim-signature; bh=l8sRCZ8IbO27CSJ5Ur8pEyydeJ0pJ3j0addQ4KT17rM=; b=SqOEIhgS2b7gmRlhEqplhfDfGrLCb69f756pc040HnOp+AjjwKzNDtR/uXjpSwnGsU nRj8NvRKd2ASMoBUyDpkK04NmBD2qUZw+WJVhBDF+XtuceJTKoFRs9bQC0QLyCljSATZ fzDpLvQgC3n6pfyWpLXKniVxDb305WKNMAqx2hVjuVnGe9LIzokMESE7ISpXogHLimRk eeHz9RLzt60imuEElTs7alEVcgwbqrxI1ygrCFuGEJDnt76xTwnWdHvhej9tN7XPNkBC DOuRQtsPhfJAMRe5wHNFDOciSlQS1bNN7zLolLj9if8aatkj5T2cnlFgnEfd0b0634rK Gwsg==
+ARC-Authentication-Results: i=1; mx.google.com; dkim=pass header.i=@freemobiledirectory.com header.s=default header.b=YGhV5rlW; spf=pass (google.com: domain of support@freemobiledirectory.com designates 72.52.250.17 as permitted sender) smtp.mailfrom=support@freemobiledirectory.com
+Return-Path: <support@freemobiledirectory.com>
+Received: from host.webservicesdivision.com (host.webservicesdivision.com. [72.52.250.17]) by mx.google.com with ESMTPS id k7-v6si5119507ite.30.2018.09.17.13.00.58 for <derek@marketleverage.com> (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128); Mon, 17 Sep 2018 13:00:59 -0700 (PDT)
+Received-SPF: pass (google.com: domain of support@freemobiledirectory.com designates 72.52.250.17 as permitted sender) client-ip=72.52.250.17;
+Authentication-Results: mx.google.com; dkim=pass header.i=@freemobiledirectory.com header.s=default header.b=YGhV5rlW; spf=pass (google.com: domain of support@freemobiledirectory.com designates 72.52.250.17 as permitted sender) smtp.mailfrom=support@freemobiledirectory.com
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=freemobiledirectory.com; s=default; h=Content-Transfer-Encoding: Content-Type:MIME-Version:To:From:Subject:Date:Message-ID:Sender:Reply-To:Cc: Content-ID:Content-Description:Resent-Date:Resent-From:Resent-Sender: Resent-To:Resent-Cc:Resent-Message-ID:In-Reply-To:References:List-Id: List-Help:List-Unsubscribe:List-Subscribe:List-Post:List-Owner:List-Archive; bh=l8sRCZ8IbO27CSJ5Ur8pEyydeJ0pJ3j0addQ4KT17rM=; b=YGhV5rlWH1SsApRH/42uxq47Y F8S6gX6U5BLxEurhAKG8yMTVFU6j8fMwtfdF/1wRmGAhB/u1HHLs4dD+5e1DoxBfUhsojXr2lOefo YyuZ4LJtbL/cHpTzR/fDkgb4bo9wfAV+bRcdr5RxFfW7OMXE8bNfNnIg/J16BsYdvQtRg=;
+Received: from [::1] (port=46835 helo=freemobiledirectory.com) by host.webservicesdivision.com with esmtpa (Exim 4.91) (envelope-from <support@freemobiledirectory.com>) id 1g1zhZ-00DMCd-Jq for derek@marketleverage.com; Mon, 17 Sep 2018 15:00:58 -0500
+Message-ID: <008e231428b535b554ea3cd59fdca5e1@freemobiledirectory.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+X-OutGoing-Spam-Status: No, score=0.5
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - host.webservicesdivision.com
+X-AntiAbuse: Original Domain - marketleverage.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - freemobiledirectory.com
+X-Get-Message-Sender-Via: host.webservicesdivision.com: authenticated_id: support@freemobiledirectory.com
+X-Authenticated-Sender: host.webservicesdivision.com: support@freemobiledirectory.com
+
+Wordfence activity from September 10, 2018 to September 17, 2018
+Wordfence activity from
+September 10, 2018 to September 17, 2018	
+
+This email was sent from your website http://freemobiledirectory.com and is a summary of security related activity that Wordfence monitors for the period September 10, 2018 to September 17, 2018. NOTE: You are using the free version of Wordfence and are missing out on features like cellphone sign-in, country blocking and detecting if your site IP is sending spam. Click here to upgrade to Wordfence Premium now.
+Top 10 IPs Blocked
+IP 	Country 	Block Count
+103.7.1.11 	  ID 	192
+81.83.0.48 	  BE 	2
+
+Update Blocked IPs
+Top 10 Countries Blocked
+Country 	Total IPs Blocked 	Block Count
+  ID 	1 	192
+  BE 	1 	2
+
+Update Blocked Countries
+Top 10 Failed Logins
+Username 	Login Attempts 	Existing User
+zboltzkore 	2 	No
+wonderfulwonder 	2 	No
+taochi886@tom.com 	1 	No
+zhongyin330103@163.com 	1 	No
+
+Update Login Security Options
+Recently Blocked Attacks
+Time 	IP / Action
+No blocked attacks yet.
+
+View Recent Traffic
+Recently Modified Files
+Modified 	File
+September 16, 2018 5:54pm 	
+
+wp-content/updraft/backup_2018-09-16-1752_Immersion_FreeMobileDirectory_c4784bc380b3-db.gz
+
+September 16, 2018 5:54pm 	
+
+wp-content/updraft/log.c4784bc380b3.txt
+
+September 16, 2018 5:53pm 	
+
+wp-content/updraft/backup_2018-09-16-1752_Immersion_FreeMobileDirectory_c4784bc380b3-others.zip
+
+September 16, 2018 5:53pm 	
+
+wp-content/updraft/backup_2018-09-16-1752_Immersion_FreeMobileDirectory_c4784bc380b3-uploads.zip
+
+September 16, 2018 5:53pm 	
+
+wp-content/updraft/backup_2018-09-16-1752_Immersion_FreeMobileDirectory_c4784bc380b3-themes.zip
+
+September 16, 2018 5:53pm 	
+
+wp-content/updraft/backup_2018-09-16-1752_Immersion_FreeMobileDirectory_c4784bc380b3-plugins.zip
+
+September 15, 2018 5:54pm 	
+
+wp-content/updraft/log.1844362bcbcb.txt
+
+September 15, 2018 5:54pm 	
+
+wp-content/updraft/backup_2018-09-15-1753_Immersion_FreeMobileDirectory_1844362bcbcb-db.gz
+
+September 15, 2018 5:53pm 	
+
+wp-content/updraft/backup_2018-09-15-1753_Immersion_FreeMobileDirectory_1844362bcbcb-others.zip
+
+September 15, 2018 5:53pm 	
+
+wp-content/updraft/backup_2018-09-15-1753_Immersion_FreeMobileDirectory_1844362bcbcb-uploads.zip
+
+This list may include WordPress core/plugin/theme updates, error logs, cache files, and other normal changes.
+Updates Needed
+Plugins
+
+    A new version of the plugin "All In One SEO Pack (v2.8)" is available.
+    A new version of the plugin "Contact Form 7 (v5.0.4)" is available. This update includes security-related fixes.	
+    A new version of the plugin "Easy FancyBox (v1.8.7)" is available.
+    A new version of the plugin "Events Manager (v5.9.5)" is available.
+    A new version of the plugin "Shortcoder (v4.1.7)" is available.
+    A new version of the plugin "SSL Insecure Content Fixer (v2.7.0)" is available.
+    A new version of the plugin "Toolset Types (v2.3.3)" is available.
+    A new version of the plugin "UpdraftPlus - Backup/Restore (v1.15.0)" is available.
+    A new version of the plugin "WP-Optimize (v2.2.4)" is available.
+
+Themes
+
+    A new version of the theme "Twenty Sixteen (v1.5)" is available.
+
+Update Now
+
+If you would like to sign-in to http://freemobiledirectory.com please click here now. You can change the frequency of this email or turn it on and off by visiting your Wordfence options page.
+
+No longer an administrator for this site? Click here to stop receiving security alerts.
