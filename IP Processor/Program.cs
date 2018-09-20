@@ -75,16 +75,14 @@ namespace IP_Processor
                 char[] separator = { ' ', '\t' };
                 var columns = line.Split(separator, StringSplitOptions.RemoveEmptyEntries);
 
-                IPAddress blockedAddress;
                 CultureInfo addressCulture = CultureInfo.GetCultures(CultureTypes.SpecificCultures).Where(cultureInfo =>
                 {
                     RegionInfo region = new RegionInfo(cultureInfo.LCID);
 
                     return region.TwoLetterISORegionName == columns[1];
                 }).DefaultIfEmpty(CultureInfo.CurrentCulture).First();
-                int blockedCount;
 
-                if (IPAddress.TryParse(columns[0], out blockedAddress) && int.TryParse(columns[2], out blockedCount))
+                if (IPAddress.TryParse(columns[0], out IPAddress blockedAddress) && int.TryParse(columns[2], out int blockedCount))
                 {
                     return new WAFBlocked
                     {
