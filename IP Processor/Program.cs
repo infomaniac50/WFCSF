@@ -26,7 +26,7 @@ namespace IP_Processor
             
             IEnumerable<string> files = Directory.EnumerateFiles(directory, filter);
 
-            var firewallEntries = files.AsParallel().SelectMany<string, WAFBlocked?>(path => GetFirewallTable(path)).Where(entry => entry.HasValue).Select(entry => entry.Value);
+            var firewallEntries = files.AsParallel().SelectMany(path => GetFirewallTable(path)).Where(entry => entry.HasValue).Select(entry => entry.Value);
 
             foreach (var entry in firewallEntries)
             {
