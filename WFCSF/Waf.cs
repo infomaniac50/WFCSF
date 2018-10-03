@@ -13,15 +13,15 @@ namespace infomaniac50
         [Verb("waf", HelpText = "Process Wordfence Emails.")]
         public class WafOptions
         {
-
+            [Value(0)]
+            public string SearchDirectory { get; }
         }
 
         public static int RunWafAndReturnExitCode(WafOptions opts)
         {
-            string directory = Directory.GetCurrentDirectory();
             string filter = "*.txt";
 
-            IEnumerable<string> files = Directory.EnumerateFiles(directory, filter);
+            IEnumerable<string> files = Directory.EnumerateFiles(opts.SearchDirectory, filter);
 
             var firewallEntries = files.AsParallel().SelectMany(path => GetFirewallTable(path)).Where(entry => entry.HasValue).Select(entry => entry.Value);
 
