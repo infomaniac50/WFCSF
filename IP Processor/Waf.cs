@@ -68,8 +68,9 @@ namespace IP_Processor
             }
 
             streamReader.Close();
+            
 
-            var firewallTable = lines.Skip(1).Where(line => line.Trim(' ', '\t') != string.Empty).Select<string, WafBlocked?>(line =>
+            var firewallTable = lines.Skip(1).Where(line => !String.IsNullOrWhiteSpace(line)).Select<string, WafBlocked?>(line =>
             {
                 char[] separator = { ' ', '\t' };
                 var columns = line.Split(separator, StringSplitOptions.RemoveEmptyEntries);
