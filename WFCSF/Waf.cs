@@ -10,6 +10,7 @@ namespace infomaniac50
 {
     class Waf
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Performance", "CA1812:AvoidUninstantiatedInternalClasses")]
         [Verb("waf", HelpText = "Process Wordfence Emails.")]
         public class WafOptions
         {
