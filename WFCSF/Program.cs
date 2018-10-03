@@ -1,7 +1,7 @@
 ﻿using CommandLine;
-using static IP_Processor.Waf;
+using static infomaniac50.Waf;
 
-namespace IP_Processor
+namespace infomaniac50
 {
     class Program
     {

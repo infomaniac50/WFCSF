@@ -1,7 +1,7 @@
 ﻿using System.Globalization;
 using System.Net;
 
-namespace IP_Processor
+namespace infomaniac50
 {
     struct WafBlocked
     {
