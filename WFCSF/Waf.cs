@@ -1,4 +1,4 @@
-using CommandLine;
+﻿using CommandLine;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -16,7 +16,6 @@ namespace infomaniac50
 
         }
 
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Naming", "CA2204:Literals should be spelled correctly", MessageId = "Wordfence")]
         public static int RunWafAndReturnExitCode(WafOptions opts)
         {
             string directory = Directory.GetCurrentDirectory();
@@ -30,7 +29,7 @@ namespace infomaniac50
             {
                 if (entry.BlockedCount > 10)
                 {
-                    Console.WriteLine("{0} # from {1} was blocked {2} times in Wordfence", entry.Ip.ToString(), entry.CountyCode.EnglishName, entry.BlockedCount);
+                    Console.WriteLine(Properties.Resources.CsfRuleTemplate, entry.Ip.ToString(), entry.CountyCode.EnglishName, entry.BlockedCount);
                 }
             }
 
