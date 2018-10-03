@@ -15,7 +15,7 @@ namespace infomaniac50
         public class WafOptions
         {
             [Value(0)]
-            public string SearchDirectory { get; }
+            public string SearchDirectory { get; set; }
         }
 
         public static int RunWafAndReturnExitCode(WafOptions opts)
