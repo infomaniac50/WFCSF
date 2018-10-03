@@ -14,7 +14,7 @@ namespace infomaniac50
         [Verb("waf", HelpText = "Process Wordfence Emails.")]
         public class WafOptions
         {
-            [Value(0)]
+            [Option('d', "directory", Required = true, HelpText = "The directory to search for files.")]
             public string SearchDirectory { get; set; }
         }
 
