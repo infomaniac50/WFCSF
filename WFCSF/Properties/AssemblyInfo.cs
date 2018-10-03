@@ -1,4 +1,4 @@
-﻿using System.Reflection;
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Wordfence ConfigServer Firewall Processor")]
-[assembly: AssemblyDescription("Converts exported plain text emails from Thunderbird to ConfigServer Firewall deny rules.")]
+[assembly: AssemblyDescription("Converts plain text emails exported from Thunderbird to ConfigServer Firewall deny rules.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("infomaniac50")]
 [assembly: AssemblyProduct("Wordfence ConfigServer Firewall Processor")]
