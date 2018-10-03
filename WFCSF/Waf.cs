@@ -1,4 +1,4 @@
-﻿using CommandLine;
+using CommandLine;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -38,37 +38,37 @@ namespace infomaniac50
 
         private static IEnumerable<WafBlocked?> GetFirewallTable(string path)
         {
-            StreamReader streamReader = new StreamReader(path);
-
-            // Skip lines until Top 10 IPs Blocked is reached.
-            // TODO: See if there is a "SkipUntil" kind of function we can use.
-            while (streamReader.Peek() >= 0)
-            {
-                string currentLine = streamReader.ReadLine();
-
-                if (currentLine == "Top 10 IPs Blocked")
-                {
-                    break;
-                }
-            }
-
             var lines = new List<string>();
-            // Copy lines until "Update Blocked IPs" is reached.
-            // TODO: See if there is a "ReadUntil" kind of function we can use.
-            while (streamReader.Peek() >= 0)
-            {
-                string currentLine = streamReader.ReadLine();
 
-                if (currentLine == "Update Blocked IPs")
+            using (StreamReader streamReader = new StreamReader(path))
+            {
+
+                // Skip lines until Top 10 IPs Blocked is reached.
+                // TODO: See if there is a "SkipUntil" kind of function we can use.
+                while (streamReader.Peek() >= 0)
                 {
-                    break;
+                    string currentLine = streamReader.ReadLine();
+
+                    if (currentLine == "Top 10 IPs Blocked")
+                    {
+                        break;
+                    }
                 }
 
-                lines.Add(currentLine);
-            }
+                // Copy lines until "Update Blocked IPs" is reached.
+                // TODO: See if there is a "ReadUntil" kind of function we can use.
+                while (streamReader.Peek() >= 0)
+                {
+                    string currentLine = streamReader.ReadLine();
 
-            streamReader.Close();
-            
+                    if (currentLine == "Update Blocked IPs")
+                    {
+                        break;
+                    }
+
+                    lines.Add(currentLine);
+                }
+            }
 
             var firewallTable = lines.Skip(1).Where(line => !String.IsNullOrWhiteSpace(line)).Select<string, WafBlocked?>(line =>
             {
