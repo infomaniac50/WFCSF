@@ -16,6 +16,7 @@ namespace IP_Processor
 
         }
 
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Naming", "CA2204:Literals should be spelled correctly", MessageId = "Wordfence")]
         public static int RunWafAndReturnExitCode(WafOptions opts)
         {
             string directory = Directory.GetCurrentDirectory();
