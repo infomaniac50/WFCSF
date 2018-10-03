@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("IP Processor")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Wordfence ConfigServer Firewall Processor")]
+[assembly: AssemblyDescription("Converts exported plain text emails from Thunderbird to ConfigServer Firewall deny rules.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("IP Processor")]
-[assembly: AssemblyCopyright("Copyright ©  2018")]
+[assembly: AssemblyCompany("infomaniac50")]
+[assembly: AssemblyProduct("Wordfence ConfigServer Firewall Processor")]
+[assembly: AssemblyCopyright("Copyright © infomaniac50 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
